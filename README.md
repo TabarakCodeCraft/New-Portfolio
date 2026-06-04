@@ -1,43 +1,48 @@
 # New Portfolio
 
-Personal portfolio built with Next.js — clean UI, responsive sections, and small decorative "stickers" assets.
+![Project Status](https://img.shields.io/badge/status-active-green)
+![Framework](https://img.shields.io/badge/framework-Next.js-black)
+![Theme](https://img.shields.io/badge/theme-iPhone%20Money-brightgreen)
 
-- **Status:** UI polish + stickers added
-- **Live demo:** (https://example.com)  
-- **Repository:** Add your GitHub link here (e.g. https://github.com/username/repo)
+## Overview
 
-![Live Demo](https://img.shields.io/badge/Live-Demo-View-blue)
-![Vercel](https://img.shields.io/badge/Deploy-Vercel-black)
+A polished personal portfolio built with Next.js, optimized for a premium iPhone-inspired look and decorated with rich sticker accents. The site highlights your projects, experience, and contact details with clean layout, responsive behavior, and custom visual elements.
 
-## What I changed
+## Key Features
 
-- Added decorative SVG stickers under `public/images/stickers` and small CSS helpers to display them.
-- Updated `HeroSection` and `AboutSection` to include sticker accents.
-- Polished base styles in `src/app/globals.css`.
+- Professional portfolio structure with hero, about, experience, projects, testimonials, and contact sections.
+- Custom sticker-style visual accents inspired by premium iPhone money and iconography.
+- Responsive design for mobile and desktop devices.
+- Easy local setup and deployment.
 
-Files updated:
+## What’s Included
 
-- [src/app/globals.css](src/app/globals.css)
-- [src/sections/HeroSection.tsx](src/sections/HeroSection.tsx)
-- [src/sections/AboutSection.tsx](src/sections/AboutSection.tsx)
+- `src/app/layout.tsx` — global page layout and metadata.
+- `src/app/globals.css` — base styling, responsive utilities, and sticker helpers.
+- `src/sections/` — organized page sections for hero, about, experience, projects, testimonials, and contact.
+- `src/components/` — reusable UI components for navigation, cards, buttons, and section headers.
+- `public/images/` — assets and sticker graphics for the site.
 
-## Run locally
-
-Install dependencies and run the dev server:
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open http://localhost:3000 to view the site.
+Then open `http://localhost:3000`.
 
-## Stickers & Design
+## Notes
 
-Two small SVG stickers were added at `public/images/stickers/sticker1.svg` and `sticker2.svg` — these are decorative accents you can replace with your own art. CSS helpers live in `src/app/globals.css` under the "Stickers" section.
+- The current project uses decorative sticker assets to enhance the visual style, not an interface design system.
+- The sticker theme is intentionally aligned with an iPhone money aesthetic, giving the portfolio a modern and premium feel.
+- Replace placeholder links and demo URLs with your own repository and live site addresses.
 
-If you want me to replace the placeholder live-demo URL and the GitHub repository link with the real ones, send the URLs and I will update the README and badges.
+## Quick Links
+
+- Live demo: `https://example.com`
+- Repository: `https://github.com/username/repo`
 
 ---
 
-Built with Next.js. For deployment, Vercel is recommended.
+Built with Next.js and ready for deployment to Vercel or any static host.
