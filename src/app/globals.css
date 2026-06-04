@@ -1,26 +1,93 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary: #ff4dbb;
+  --color-background: #0f1418;
+  --color-card: #141a1f;
+  --color-border: #242b32;
+  --color-surface: #1a2329;
+  --color-text: #f0f2f5;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+body{
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dot-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.dot-grid__wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dot-grid__canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.project-animation-wrapper {
+  perspective: 1200px;
+}
+.project-panel {
+  transform-origin: top center;
+  transform: rotateX(70deg) translateY(50px);
+  opacity: 0;
+  transition: transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1), opacity 0.9s ease;
+  will-change: transform, opacity;
+}
+.project-panel.open {
+  transform: rotateX(0deg) translateY(0);
+  opacity: 1;
+}
+.project-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), transparent 60%);
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.experience-sheet {
+  perspective: 1200px;
+}
+.experience-card {
+  position: relative;
+  transform-style: preserve-3d;
+  opacity: 0;
+  transition: transform 0.85s cubic-bezier(0.22, 0.61, 0.36, 1), opacity 0.85s ease;
+  will-change: transform, opacity;
+}
+.experience-card.closed.experience-left {
+  transform: translateX(-80px) rotateY(25deg) scale(0.96);
+}
+.experience-card.closed.experience-right {
+  transform: translateX(80px) rotateY(-25deg) scale(0.96);
+}
+.experience-card.open.experience-left,
+.experience-card.open.experience-right {
+  transform: translateX(0) rotateY(0) scale(1);
+  opacity: 1;
+}
+.experience-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), transparent 55%);
+  pointer-events: none;
+  mix-blend-mode: screen;
 }

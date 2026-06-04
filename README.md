@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# New Portfolio
 
-## Getting Started
+Personal portfolio built with Next.js — clean UI, responsive sections, and small decorative "stickers" assets.
 
-First, run the development server:
+- **Status:** UI polish + stickers added
+- **Live demo:** (https://example.com)  
+- **Repository:** Add your GitHub link here (e.g. https://github.com/username/repo)
+
+![Live Demo](https://img.shields.io/badge/Live-Demo-View-blue)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black)
+
+## What I changed
+
+- Added decorative SVG stickers under `public/images/stickers` and small CSS helpers to display them.
+- Updated `HeroSection` and `AboutSection` to include sticker accents.
+- Polished base styles in `src/app/globals.css`.
+
+Files updated:
+
+- [src/app/globals.css](src/app/globals.css)
+- [src/sections/HeroSection.tsx](src/sections/HeroSection.tsx)
+- [src/sections/AboutSection.tsx](src/sections/AboutSection.tsx)
+
+## Run locally
+
+Install dependencies and run the dev server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Stickers & Design
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Two small SVG stickers were added at `public/images/stickers/sticker1.svg` and `sticker2.svg` — these are decorative accents you can replace with your own art. CSS helpers live in `src/app/globals.css` under the "Stickers" section.
 
-## Learn More
+If you want me to replace the placeholder live-demo URL and the GitHub repository link with the real ones, send the URLs and I will update the README and badges.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with Next.js. For deployment, Vercel is recommended.
