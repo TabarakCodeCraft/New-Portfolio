@@ -112,17 +112,3 @@ This portfolio uses a custom **Sticker Visual System**, including:
 These elements create a **modern developer identity layer**.
 
 ---
-
-## 🧱 Project Structure
-
-```bash
-src/
- ├── app/
- ├── sections/
- ├── components/
- ├── styles/
-public/
- ├── images/
- │   ├── stickers/
- │   ├── projects/
-```
