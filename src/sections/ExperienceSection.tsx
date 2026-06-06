@@ -72,7 +72,7 @@ export default function ExperienceSection() {
                 />
 
                 <div className="relative mt-14 experience-sheet">
-                    <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-[1px] bg-gradient-to-b from-primary/70 via-primary/30 to-transparent" />
+                    <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-1px bg-linear-to-b from-primary/70 via-primary/30 to-transparent" />
                     <div className="space-y-12">
                         {experiences.map((exp, index) => (
                             <div key={index} className="relative grid md:grid-cols-2 gap-8">

@@ -1,7 +1,7 @@
 "use client"
 import ProjectCard from "@/components/ui/ProjectCard";
 import SectionHeader from "@/components/ui/SectionHeader";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 const projects = [
     {
         title: "DR.Lab",

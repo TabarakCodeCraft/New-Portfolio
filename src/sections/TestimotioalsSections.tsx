@@ -19,7 +19,7 @@ const testmonials = [
     },
     {
         name: "Karrar Honi",
-        role: "R&D Manager, International Company",
+        role: "Manager International Company",
         image: "/images/KarrarHoni.jpg",
         feedback: "Tabarak is a valuable addition to the team — when she works you can see she doesn't just write code to build systems, she creates beautiful, artful solutions.",
 

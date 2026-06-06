@@ -32,10 +32,10 @@ export default function HeroSection() {
             Software Engineer · Full-Stack Developer
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-text/90">
-            Building modern web experiences with <span className="text-primary/70">clean code</span>
+            Building smart systems that <span className="text-primary/70">solve real-world challenges</span>
           </h1>
           <p className="text-gray-400 max-w-lg tracking-wide">
-            Software Engineer with 4+ years of experience developing modern web applications, business platforms, ERP, and scalable solutions using React, Next.js, TypeScript, and contemporary backend technologies.
+            Software Engineer with 4+ years of experience transforming business ideas into scalable digital products, ERP systems, management platforms, and modern web applications using React, Next.js, TypeScript, and robust backend technologies.
           </p>
 
           <div className="flex items-center gap-4 pt-2">
