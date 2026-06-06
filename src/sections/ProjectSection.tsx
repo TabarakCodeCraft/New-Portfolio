@@ -95,29 +95,10 @@ const projects = [
 ];
 
 export default function ProjectSection() {
-    const sectionRef = useRef<HTMLElement | null>(null);
-    const [isVisible, setIsVisible] = useState(false);
-
-    useEffect(() => {
-        const section = sectionRef.current;
-        if (!section) return;
-
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    setIsVisible(true);
-                    observer.disconnect();
-                }
-            },
-            { threshold: 0.2 }
-        );
-
-        observer.observe(section);
-        return () => observer.disconnect();
-    }, []);
+    const [isVisible] = useState(true);
 
     return (
-        <section ref={sectionRef} id="projects" className="py-24 relative">
+        <section id="projects" className="py-24 relative">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-80 h-80 rounded-full blur-3xl bg-primary/10" />
             <div className="w-[90%] max-w-6xl mx-auto space-y-12">
                 <div className={`transition duration-700 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-8"}`}>
@@ -129,11 +110,11 @@ export default function ProjectSection() {
                     />
                 </div>
 
-                <div className="project-animation-wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+                <div className="project-animation-wrapper grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 auto-rows-fr">
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className={`project-panel ${isVisible ? "open" : ""}`}
+                            className={`project-panel h-full rounded-[30px] overflow-hidden ${isVisible ? "open" : ""}`}
                             style={{ transitionDelay: `${index * 80}ms` }}
                         >
                             <ProjectCard

@@ -44,7 +44,7 @@ export default function TestimotioalsSections() {
                     description="Feedback from clients and collabrators Ive worked with on various projects.."/>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {testmonials.map((item, index) => (
-                        <div className="group relative p-6 rounded-2xl bg-surface border border-border
+                        <div key={item.name} className="group relative p-6 rounded-2xl bg-surface border border-border
                         transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg
                         ">
                             <LuQuote className="absolute top-5 right-5 text-primary/10 w-10 h-10" />
