@@ -65,23 +65,23 @@ export default function ExperienceSection() {
 
             <div className="container mx-auto px-6 relative z-10">
                 <SectionHeader
-                    title="Experience that"
+                    title="Experience that "
                     highlight="speaks volumes"
                     badge="Experience"
                     description="A timeline of my growth from learning the fundamentals to building real fullstack applications."
                 />
 
                 <div className="relative mt-14 experience-sheet">
-                    <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-1px bg-linear-to-b from-primary/70 via-primary/30 to-transparent" />
+                    <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-[2px] -translate-x-1/2 z-10" style={{ background: "linear-gradient(180deg, rgba(255,77,187,0.75), rgba(255,77,187,0.35), transparent)" }} />
                     <div className="space-y-12">
                         {experiences.map((exp, index) => (
                             <div key={index} className="relative grid md:grid-cols-2 gap-8">
-                                <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10">
+                                <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-20">
                                     <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75" />
                                 </div>
 
                                 <div className={`pl-8 md:pl-0 ${index % 2 === 0 ? "md:pr-16 md:text-right" : "md:col-start-2 md:pl-16"}`}>
-                                    <div className={`experience-card ${index % 2 === 0 ? "experience-left" : "experience-right"} p-6 rounded-3xl border border-primary/30 bg-surface/80 backdrop-blur-sm transition-all duration-700 ${isVisible ? "open" : "closed"}`} style={{ transitionDelay: `${index * 90}ms` }}>
+                                    <div className={`experience-card hover:border-primary/10 hover:transition ${index % 2 === 0 ? "experience-left" : "experience-right"} p-6 rounded-3xl border border-primary/30 backdrop-blur-sm transition-all duration-700 ${isVisible ? "open" : "closed"}`} style={{ transitionDelay: `${index * 90}ms` }}>
                                         <span className="text-primary text-sm font-medium">{exp.period}</span>
                                         <h3 className="text-2xl font-semibold mt-2 text-text">{exp.role}</h3>
                                         <p className="text-gray-300 mt-1">{exp.company}</p>
@@ -89,7 +89,7 @@ export default function ExperienceSection() {
 
                                         <div className={`flex flex-wrap gap-2 mt-4 ${index % 2 === 0 ? "md:justify-end" : "md:justify-start"}`}>
                                             {exp.technologies.map((tech, techIndex) => (
-                                                <span key={techIndex} className="px-3 py-1 bg-background text-xs rounded-full text-gray-300 whitespace-nowrap">{tech}</span>
+                                                <span key={techIndex} className="px-3 py-1 bg-gray-800 text-xs rounded-full text-gray-300 whitespace-nowrap">{tech}</span>
                                             ))}
                                         </div>
                                     </div>

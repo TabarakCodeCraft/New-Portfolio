@@ -39,7 +39,7 @@ export default function HeroSection() {
           </p>
 
           <div className="flex items-center gap-4 pt-2">
-            <LinkButton text="Get in touch" href="#contact" rounded icon={LuArrowRight} />
+            <LinkButton text="Get in touch" href="#footer" rounded icon={LuArrowRight} />
             <LinkButton text="View projects" href="#projects" rounded variant="outline" />
           </div>
         </div>

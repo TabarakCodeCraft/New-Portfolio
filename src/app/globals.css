@@ -65,7 +65,7 @@ body{
 }
 .experience-card {
   position: relative;
-  transform-style: preserve-3d;
+  /* transform-style: preserve-3d; */
   opacity: 0;
   transition: transform 0.85s cubic-bezier(0.22, 0.61, 0.36, 1), opacity 0.85s ease;
   will-change: transform, opacity;
@@ -86,7 +86,7 @@ body{
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  background: linear-gradient(180deg, rgba(255,255,255,0.06), transparent 55%);
+  /* background: linear-gradient(180deg, rgba(255,255,255,0.06), transparent 55%); */
   pointer-events: none;
   mix-blend-mode: screen;
 }
