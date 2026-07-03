@@ -11,15 +11,7 @@ const projects = [
         tags: ["Electron.js", "React.js"],
         liveUrl: "https://www.drlab.app/",
     },
-    {
-        title: "Storage Platform (StorIt)",
-        description:
-            "Cloud-based file storage and sharing platform inspired by Google Drive with authentication.",
-        image: "/images/storeIt.png",
-        tags: ["React", "Cloud"],
-        gitHubLink: "https://github.com/TabarakCodeCraft/StoreIt-Clone-Google-Drive",
-        liveUrl: "https://store-it-clone-google-drive-4ge8.vercel.app/",
-    },
+
     {
         title: "PureTik website",
         description:
