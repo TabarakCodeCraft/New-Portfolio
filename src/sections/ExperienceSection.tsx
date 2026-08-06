@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react"
 
 const experiences = [
     {
-        role: "Fullstack Enginner",
+        role: "Fullstack Developer",
         company: "Freelance",
         period: "2025- Present",
         location: "Remotely",
@@ -12,7 +12,7 @@ const experiences = [
         technologies: ["Next js", "React js", "Express js", "TypeScript", "Prisma ORM", "Postgress SQL", "MangoDB", "AWS",]
     },
     {
-        role: "Frontend Web Developer",
+        role: "Mid Level Frontend Developer",
         company: "Talabatey",
         period: "04/2025 - Present",
         location: "Remotely",

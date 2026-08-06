@@ -11,7 +11,6 @@ const projects = [
         tags: ["Electron.js", "React.js"],
         liveUrl: "https://www.drlab.app/",
     },
-
     {
         title: "PureTik website",
         description:
