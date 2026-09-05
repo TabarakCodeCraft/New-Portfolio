@@ -25,7 +25,7 @@ const projects = [
       "Dashboard build in React.js handle 200+ endpoints, with full responsive design.",
     image: "/images/talabatey.png",
     tags: ["React", "Dashboard"],
-    liveUrl: "https://luxury-narwhal-534d75.netlify.app/",
+    liveUrl: "https://talabatey-last-mail-sys.netlify.app/",
   },
   {
     title: "StoreIt - Cloud Storage Platform",
