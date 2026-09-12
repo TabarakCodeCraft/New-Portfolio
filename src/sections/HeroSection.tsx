@@ -49,7 +49,7 @@ export default function HeroSection() {
           bg-surface/80 backdrop-border flex items-center justify-center
           ">
             <div className="absolute inset-0 rounded-full bg-primary/20 blur-3xl" />
-            <Image fill src="/images/me.png" alt="profile-image" className="z-10 object-cover rounded-full" />
+            <Image fill src="/images/me2.jpeg" alt="profile-image" className="z-10 object-cover rounded-full" />
           </div>
         </div>
 
