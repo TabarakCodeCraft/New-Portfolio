@@ -8,7 +8,7 @@ const projects = [
     description:
       "A desktop application built using React.js and Electron. Downloadable from the official site.",
     image: "/images/drlap.png",
-    tags: ["Electron.js", "React.js"],
+    tags: ["Electron.js", "React.js", "SQL"],
     liveUrl: "https://www.drlab.app/",
   },
   {
@@ -24,8 +24,26 @@ const projects = [
     description:
       "Dashboard build in React.js handle 200+ endpoints, with full responsive design.",
     image: "/images/talabatey.png",
-    tags: ["React", "Dashboard"],
+    tags: ["React.js", "API integration"],
     liveUrl: "https://talabatey-last-mail-sys.netlify.app/",
+  },
+  {
+    title: "Support Pipeline Automation",
+    description:
+      "AI-powered back-office assistant that analyzes Iraqi-Arabic wallet complaints Collabreate with AI-team In Hackathon ZainCash Task.",
+
+    image: "/images/supportAutomation.png",
+    tags: [
+      "PyTorch",
+      "QLoRA",
+      "3D Avatar",
+      "Node.js",
+      "PostgreSQL",
+      "React.js",
+    ],
+    gitHubLink:
+      "https://github.com/TabarakCodeCraft/Hackathon-ZainCash-WebApp-Task",
+    liveUrl: "https://aiagent-support-by-yousif-and-tabarak.netlify.app/",
   },
   {
     title: "StoreIt - Cloud Storage Platform",
@@ -33,14 +51,17 @@ const projects = [
       "Full-stack cloud storage platform with OTP authentication, file management, and Appwrite backend services.",
     image: "/images/storeIt.png",
     tags: ["Next.js", "React.js", "Appwrite", "OTP", "Cloud Storage"],
+    gitHubLink:
+      "https://github.com/TabarakCodeCraft/StoreIt-Clone-Google-Drive",
     liveUrl: "https://store-it-clone-google-drive-4ge8.vercel.app/",
   },
+
   {
     title: "3D Skateboard App",
     description:
       "Interactive 3D skateboard customization app built with React Three Fiber and GSAP.",
     image: "/images/3d-skateboard.png",
-    tags: ["3D", "Three.js"],
+    tags: ["3D", "Three.js", "Typescript"],
     gitHubLink: "https://github.com/TabarakCodeCraft/3d-Skateboard.git",
     liveUrl: "https://3d-skateboard-two.vercel.app/",
   },
@@ -76,7 +97,7 @@ const projects = [
     description:
       "Full-stack car rental app with bookings, admin dashboard and multi-language support.",
     image: "/images/carRental.png",
-    tags: ["Fullstack", "React"],
+    tags: ["Fullstack", "React.js"],
     gitHubLink: "https://github.com/TabarakCodeCraft/Car-Rental",
     liveUrl: "https://car-rental-frontend-by-tabarak2025.vercel.app/",
   },
