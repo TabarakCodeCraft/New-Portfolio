@@ -27,24 +27,24 @@ const projects = [
     tags: ["React.js", "API integration"],
     liveUrl: "https://talabatey-last-mail-sys.netlify.app/",
   },
-  {
-    title: "Support Pipeline Automation",
-    description:
-      "AI-powered back-office assistant that analyzes Iraqi-Arabic wallet complaints Collabreate with AI-team In Hackathon ZainCash Task.",
+  // {
+  //   title: "Support Pipeline Automation",
+  //   description:
+  //     "AI-powered back-office assistant that analyzes Iraqi-Arabic wallet complaints Collabreate with AI-team In Hackathon ZainCash Task.",
 
-    image: "/images/supportAutomation.png",
-    tags: [
-      "PyTorch",
-      "QLoRA",
-      "3D Avatar",
-      "Node.js",
-      "PostgreSQL",
-      "React.js",
-    ],
-    gitHubLink:
-      "https://github.com/TabarakCodeCraft/Hackathon-ZainCash-WebApp-Task",
-    liveUrl: "https://aiagent-support-by-yousif-and-tabarak.netlify.app/",
-  },
+  //   image: "/images/supportAutomation.png",
+  //   tags: [
+  //     "PyTorch",
+  //     "QLoRA",
+  //     "3D Avatar",
+  //     "Node.js",
+  //     "PostgreSQL",
+  //     "React.js",
+  //   ],
+  //   gitHubLink:
+  //     "https://github.com/TabarakCodeCraft/Hackathon-ZainCash-WebApp-Task",
+  //   liveUrl: "https://aiagent-support-by-yousif-and-tabarak.netlify.app/",
+  // },
   {
     title: "StoreIt - Cloud Storage Platform",
     description:
