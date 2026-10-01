@@ -25,9 +25,9 @@ const testmonials = [
 
     },
     {
-        name: "Neo Kim",
-        role: "System Design Manager",
-        image: "/images/NeoKim.jpg",
+        name: "Murtdha M. Mohamad",
+        role: "Startup Founder and Trannier",
+        image: "/images/murtadah.png",
         feedback: "Tabarak is one of the most creative and intelligent trainees — she loves learning and achieving, and is capable of solving the toughest problems.",
 
     },
