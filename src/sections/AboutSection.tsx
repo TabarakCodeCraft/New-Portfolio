@@ -21,7 +21,7 @@ export default function AboutSection() {
                         About Me
                     </span>
                     <h2 className="text-3xl font-bold text-gray-300">
-                        My Name is Tabarak Ali from Baghdad-Iraq and I have 24 years old.
+                        My Name is Tabarak Ali from Baghdad-Iraq and I have 25 years old.
                     </h2>
                     <p className="text-gray-400 max-w-xl tracking-wide">
                         I'm a software engineer who enjoys building useful web applications and learning how things work behind the scenes. I mainly work with JavaScript, TypeScript, React, and Next.js, and I have a strong interest in backend development and system design.
