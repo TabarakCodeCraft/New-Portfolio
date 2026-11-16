@@ -12,6 +12,14 @@ const projects = [
     liveUrl: "https://www.drlab.app/",
   },
   {
+    title: "Talabatey Taxi Dashboard",
+    description:
+      "Dashboard build in React.js handle 250+ endpoints, with full responsive design.",
+    image: "/images/taxiDashboard.png",
+    tags: ["React.js", "API integration"],
+    liveUrl: "https://taxi-talabatey-by-dev-tabarak.vercel.app/",
+  },
+  {
     title: "PureTik website",
     description:
       "Company website for PureTik delivering digital solutions, cloud and data services.",
@@ -25,26 +33,8 @@ const projects = [
       "Dashboard build in React.js handle 200+ endpoints, with full responsive design.",
     image: "/images/talabatey.png",
     tags: ["React.js", "API integration"],
-    liveUrl: "https://talabatey-last-mail-sys.netlify.app/",
+    liveUrl: "https://lastmaile-dashboard-by-programmer-t.vercel.app/",
   },
-  // {
-  //   title: "Support Pipeline Automation",
-  //   description:
-  //     "AI-powered back-office assistant that analyzes Iraqi-Arabic wallet complaints Collabreate with AI-team In Hackathon ZainCash Task.",
-
-  //   image: "/images/supportAutomation.png",
-  //   tags: [
-  //     "PyTorch",
-  //     "QLoRA",
-  //     "3D Avatar",
-  //     "Node.js",
-  //     "PostgreSQL",
-  //     "React.js",
-  //   ],
-  //   gitHubLink:
-  //     "https://github.com/TabarakCodeCraft/Hackathon-ZainCash-WebApp-Task",
-  //   liveUrl: "https://aiagent-support-by-yousif-and-tabarak.netlify.app/",
-  // },
   {
     title: "StoreIt - Cloud Storage Platform",
     description:
